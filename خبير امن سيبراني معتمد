@@ -1,0 +1,158 @@
+# I will write the HTML code into a file and save it.
+html_code = """
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>عبد الملك عيد - خبير أمن سيبراني</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2em;
+        }
+        section {
+            background: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        h2 {
+            color: #333;
+            font-size: 1.5em;
+            border-bottom: 2px solid #f4f4f4;
+            padding-bottom: 10px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            padding: 10px 0;
+        }
+        a {
+            color: #333;
+            text-decoration: none;
+        }
+        a:hover {
+            color: #007bff;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>عبد الملك عيد</h1>
+        <p><strong>خبير أمن سيبراني معتمد</strong></p>
+        <p>البريد الإلكتروني: <a href="mailto:abdulmalikeed@gmail.com">abdulmalikeed@gmail.com</a> | 
+            الهاتف: <a href="tel:+967738327102">+967738327102</a></p>
+        <p>الموقع الشخصي: <a href="https://abdulmalikeed.wordpress.com" target="_blank">abdulmalikeed.wordpress.com</a> |
+            تلجرام: <a href="https://t.me/Abdulmalikeed" target="_blank">https://t.me/Abdulmalikeed</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/abdul-malik-eed-388a31310?trk=contact-info" target="_blank">عبد الملك عيد</a> |
+            GitHub: <a href="https://github.com/Abdulmalikeed/Abdul-Malik-Eed-" target="_blank">GitHub</a> |
+            واتساب: <a href="https://wa.me/967738327102" target="_blank">واتساب</a></p>
+    </header>
+
+    <div class="container">
+        <section>
+            <h2>الملخص الشخصي</h2>
+            <p>خبير أمن سيبراني يتمتع بخبرة تتجاوز 8 سنوات في تصميم وتنفيذ حلول حماية متقدمة للشركات والحكومات. شغوف بإيجاد حلول مبتكرة للتحديات السيبرانية الجديدة، ومتمرس في تحديد نقاط الضعف وتأمين الشبكات والبنى التحتية الحرجة.</p>
+        </section>
+
+        <section>
+            <h2>الخبرات المهنية</h2>
+            <ul>
+                <li><strong>شركة XYZ للأمن السيبراني</strong> — مدير أمن المعلومات (CISO) <br> يناير 2021 - حتى الآن
+                    <ul>
+                        <li>قيادة استراتيجية الأمن السيبراني الشاملة للشركة.</li>
+                        <li>تحقيق تقليل بنسبة 40% في تعرض الشركة للهجمات السيبرانية.</li>
+                    </ul>
+                </li>
+                <li><strong>شركة ABC للتكنولوجيا</strong> — مهندس أمان سيبراني رئيسي <br> مارس 2016 - ديسمبر 2020
+                    <ul>
+                        <li>تصميم وتنفيذ أنظمة الأمان المتكاملة للشركات الكبرى.</li>
+                        <li>تقليل الأخطاء البشرية بنسبة 25%.</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>التعليم</h2>
+            <p><strong>جامعة التقنية الوطنية</strong> — بكالوريوس في هندسة الحاسوب والأمن السيبراني<br> 2011 - 2015</p>
+        </section>
+
+        <section>
+            <h2>الشهادات المهنية</h2>
+            <ul>
+                <li>CISSP (Certified Information Systems Security Professional)</li>
+                <li>CEH (Certified Ethical Hacker)</li>
+                <li>CISM (Certified Information Security Manager)</li>
+                <li>AWS Certified Security – Specialty</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>المهارات التقنية</h2>
+            <ul>
+                <li><strong>اللغات البرمجية</strong>: Python, Java, C++, PowerShell</li>
+                <li><strong>الأدوات</strong>: Wireshark, Metasploit, Burp Suite, Nessus, Splunk</li>
+                <li><strong>أمن الشبكات</strong>: VPN, Firewalls, IDS/IPS, Zero Trust</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>المشاريع الكبرى</h2>
+            <ul>
+                <li>مشروع مواجهة هجمات الفدية للمؤسسات الحكومية.</li>
+                <li>نظام الكشف عن التهديدات السيبرانية باستخدام الذكاء الاصطناعي.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>الجوائز والتكريمات</h2>
+            <ul>
+                <li>أفضل خبير أمن سيبراني لعام 2023.</li>
+                <li>جائزة الابتكار في الأمان الرقمي.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>اللغات</h2>
+            <p>العربية: اللغة الأم | الإنجليزية: متقدم | الفرنسية: متوسط</p>
+        </section>
+
+        <section>
+            <h2>الاهتمامات</h2>
+            <p>متابعة الابتكارات في مجال الذكاء الاصطناعي وتأثيرها على الأمن السيبراني، والمشاركة في مسابقات CTF، وكتابة أبحاث حول تحليل التهديدات السيبرانية.</p>
+        </section>
+    </div>
+
+</body>
+</html>
+"""
+
+# Save the HTML content to a file
+file_path = "/mnt/data/abdul_malik_eed_web_page.html"
+with open(file_path, "w") as file:
+    file.write(html_code)
+
+file_path
